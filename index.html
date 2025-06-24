@@ -1,56 +1,108 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>تهنئة من الأمن السيبراني</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background-image: url('https://i.imgur.com/EUZcoVf.jpg');
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
-      font-family: 'Cairo', 'Arial', sans-serif;
-      color: #ffffff;
-      text-shadow: 1px 1px 4px #000000;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <title>تهنئة بلال عمر</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: url('https://i.imgur.com/FOGGdhi.jpg') no-repeat center center fixed;
+        background-size: cover;
+        color: #ffffff;
+        text-align: center;
+      }
 
-    h1 {
-      font-size: 3em;
-      color: #00ffff;
-      margin-bottom: 0.3em;
-    }
+      .overlay {
+        background-color: rgba(0, 0, 0, 0.78);
+        padding: 100px 20px 80px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
 
-    h2 {
-      font-size: 2em;
-      margin-bottom: 0.5em;
-    }
+      img.logo {
+        width: 120px;
+        margin-bottom: 30px;
+        filter: drop-shadow(0 0 5px #00ffe0);
+      }
 
-    p {
-      font-size: 1.3em;
-      max-width: 80%;
-      margin: 0;
-      background-color: rgba(0, 0, 0, 0.4);
-      padding: 15px 20px;
-      border-radius: 15px;
-    }
-  </style>
-</head>
-<body>
-  <h1>🎓 تهنئة خاصة 🎓</h1>
-  <h2>من فريق الأمن السيبراني</h2>
-  <p>
-    تتقدم وحدة الأمن السيبراني بخالص التهاني والتبريكات للأستاذ <strong>Bilal Omar</strong><br>
-    بمناسبة نجاحه في مشروع التخرج المتميز <strong>GPT-OSINT</strong><br>
-    والذي يُعد خطوة واعدة في مجال الذكاء الاصطناعي وتحليل المعلومات مفتوحة المصدر.<br><br>
-    نفتخر بك وبإنجازك ونتمنى لك المزيد من التألق والنجاح في مسيرتك المهنية.
-  </p>
-</body>
+      h1 {
+        color: #00ffe0;
+        font-size: 3em;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        color: #ffd700;
+        font-size: 2em;
+        margin-bottom: 30px;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: right;
+        max-width: 800px;
+        margin: 0 auto 40px;
+      }
+
+      li {
+        background: rgba(255, 255, 255, 0.1);
+        margin: 10px 0;
+        padding: 15px 20px;
+        border-radius: 8px;
+        font-size: 1.2em;
+        line-height: 1.6;
+      }
+
+      .emoji {
+        font-size: 1.5em;
+        margin-left: 10px;
+      }
+
+      .from {
+        font-size: 1.3em;
+        margin-top: 20px;
+        color: #90e0ff;
+      }
+
+      a.button {
+        display: inline-block;
+        margin-top: 30px;
+        padding: 14px 30px;
+        background: #00ffe0;
+        color: #000;
+        font-size: 1.2em;
+        font-weight: bold;
+        border-radius: 30px;
+        text-decoration: none;
+        transition: background 0.3s ease;
+      }
+
+      a.button:hover {
+        background: #00c9b8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="overlay">
+      <img src="https://i.imgur.com/wA8XabB.png" alt="Cyber Security Logo" class="logo" />
+      <h1>🎉 تهانينا للأستاذ بلال عمر 🎉</h1>
+      <h2>بمناسبة نجاحه في تطوير أداة GPT-OSINT</h2>
+
+      <ul>
+        <li><span class="emoji">🧠</span> أداة ذكية تعتمد على الذكاء الاصطناعي لتحليل مصادر المعلومات المفتوحة</li>
+        <li><span class="emoji">⚡</span> تسريع عمليات استخراج وتحليل البيانات في الوقت الحقيقي</li>
+        <li><span class="emoji">🚨</span> دعم استباقي لفرق الأمن في كشف التهديدات السيبرانية</li>
+        <li><span class="emoji">📊</span> تحسين دقة وفعالية تقارير الرصد والتحليل الأمني</li>
+        <li><span class="emoji">🔐</span> يعزز قدرات الدفاع الرقمي في بيئات شديدة التعقيد</li>
+      </ul>
+
+      <div class="from">تحية فخر واعتزاز من فريق الأمن السيبراني</div>
+
+      <a class="button" href="https://github.com/bilal-omar10/bilal-omar-celebration" target="_blank">🔗 زيارة المشروع على GitHub</a>
+    </div>
+  </body>
 </html>
